@@ -18,7 +18,7 @@ log = {
 
 
 def clear_dict(log_dict: dict) -> dict:
-    result = log_dict.clear()
+    log_dict.clear()
     return log_dict
 
 
