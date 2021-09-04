@@ -23,8 +23,7 @@ user_data_template = [
 
 
 def copy_list(collection: list) -> list:
-    collection = collection.copy()
-    collection_copy = collection
+    collection_copy = collection.copy()
     return collection_copy
 
 
